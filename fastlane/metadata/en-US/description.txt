@@ -1,0 +1,1 @@
+Calculate distance, split, and time for ergometer or rowing pieces. Average wattage is also calculated. Plain and simple.

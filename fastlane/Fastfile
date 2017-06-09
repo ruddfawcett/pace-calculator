@@ -1,0 +1,29 @@
+# More documentation about how to customize your build
+# can be found here:
+# https://docs.fastlane.tools
+fastlane_version "1.109.0"
+
+default_platform :ios
+
+before_all do
+    increment_build_number
+end
+
+lane :beta do
+
+  gym(
+    export_method: "app-store"
+  )
+
+  # upload to Testflight
+  pilot(skip_waiting_for_build_processing: true)
+end
+
+lane :deploy do
+  cert
+  sigh
+  gym(
+    export_method: "app-store"
+  )
+  deliver
+end

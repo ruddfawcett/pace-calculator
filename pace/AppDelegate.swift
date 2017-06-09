@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  pace
+//  Pace
 //
 //  Created by Rudd Fawcett on 6/6/17.
 //  Copyright © 2017 Rudd Fawcett. All rights reserved.
@@ -41,6 +41,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-
 }
 
+extension UIView {
+    class func loadFromNibNamed(nibNamed: String, bundle : Bundle? = nil) -> UIView? {
+        return UINib(
+            nibName: nibNamed,
+            bundle: bundle
+            ).instantiate(withOwner: nil, options: nil)[0] as? UIView
+    }
+}

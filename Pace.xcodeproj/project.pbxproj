@@ -8,20 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		F102A9F11EE7617D00DEE1E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F102A9F01EE7617D00DEE1E8 /* AppDelegate.swift */; };
-		F102A9F31EE7617D00DEE1E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F102A9F21EE7617D00DEE1E8 /* ViewController.swift */; };
-		F102A9F61EE7617D00DEE1E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F102A9F41EE7617D00DEE1E8 /* Main.storyboard */; };
 		F102A9F81EE7617D00DEE1E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F102A9F71EE7617D00DEE1E8 /* Assets.xcassets */; };
-		F102A9FB1EE7617D00DEE1E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F102A9F91EE7617D00DEE1E8 /* LaunchScreen.storyboard */; };
+		F102AA031EE7631200DEE1E8 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F102AA021EE7631200DEE1E8 /* Calculator.swift */; };
+		F102AA091EE78DA300DEE1E8 /* DistanceEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F102AA081EE78DA300DEE1E8 /* DistanceEditor.swift */; };
+		F102AA0B1EE794B700DEE1E8 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F102AA0A1EE794B700DEE1E8 /* CalculatorViewController.swift */; };
+		F102AA141EE7A0F500DEE1E8 /* TimeEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F102AA131EE7A0F500DEE1E8 /* TimeEditor.swift */; };
+		F102AA161EE7A15600DEE1E8 /* NumberField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F102AA151EE7A15600DEE1E8 /* NumberField.swift */; };
+		F102AA181EE7A31300DEE1E8 /* BorderedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F102AA171EE7A31300DEE1E8 /* BorderedView.swift */; };
+		F102AA1A1EE7AB3200DEE1E8 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F102AA191EE7AB3200DEE1E8 /* MenuView.swift */; };
+		F102AA231EE88C4700DEE1E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F102AA221EE88C4700DEE1E8 /* LaunchScreen.storyboard */; };
+		F102AA251EE88D2F00DEE1E8 /* TimeEditor.xib in Resources */ = {isa = PBXBuildFile; fileRef = F102AA1F1EE88C2D00DEE1E8 /* TimeEditor.xib */; };
+		F102AA261EE88D3400DEE1E8 /* DistanceEditor.xib in Resources */ = {isa = PBXBuildFile; fileRef = F102AA1E1EE88C2D00DEE1E8 /* DistanceEditor.xib */; };
+		F102AA2A1EE88DE200DEE1E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F102A9F41EE7617D00DEE1E8 /* Main.storyboard */; };
+		F145DC5E1EE8A79E00FE4583 /* Toolbar.xib in Resources */ = {isa = PBXBuildFile; fileRef = F145DC5D1EE8A79E00FE4583 /* Toolbar.xib */; };
+		F145DC601EE8A98D00FE4583 /* Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F145DC5F1EE8A98D00FE4583 /* Toolbar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F102A9ED1EE7617D00DEE1E8 /* pace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F102A9ED1EE7617D00DEE1E8 /* Pace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F102A9F01EE7617D00DEE1E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F102A9F21EE7617D00DEE1E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F102A9F51EE7617D00DEE1E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F102A9F71EE7617D00DEE1E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F102A9FA1EE7617D00DEE1E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F102A9FC1EE7617D00DEE1E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F102AA021EE7631200DEE1E8 /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Calculator.swift; path = Classes/Utility/Calculator.swift; sourceTree = "<group>"; };
+		F102AA081EE78DA300DEE1E8 /* DistanceEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DistanceEditor.swift; path = Classes/Views/DistanceEditor.swift; sourceTree = "<group>"; };
+		F102AA0A1EE794B700DEE1E8 /* CalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalculatorViewController.swift; path = Classes/Controllers/CalculatorViewController.swift; sourceTree = "<group>"; };
+		F102AA131EE7A0F500DEE1E8 /* TimeEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimeEditor.swift; path = Classes/Views/TimeEditor.swift; sourceTree = "<group>"; };
+		F102AA151EE7A15600DEE1E8 /* NumberField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NumberField.swift; path = Classes/Views/NumberField.swift; sourceTree = "<group>"; };
+		F102AA171EE7A31300DEE1E8 /* BorderedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BorderedView.swift; path = Classes/Views/BorderedView.swift; sourceTree = "<group>"; };
+		F102AA191EE7AB3200DEE1E8 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuView.swift; path = Classes/Views/MenuView.swift; sourceTree = "<group>"; };
+		F102AA1E1EE88C2D00DEE1E8 /* DistanceEditor.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DistanceEditor.xib; path = Interface/DistanceEditor.xib; sourceTree = "<group>"; };
+		F102AA1F1EE88C2D00DEE1E8 /* TimeEditor.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TimeEditor.xib; path = Interface/TimeEditor.xib; sourceTree = "<group>"; };
+		F102AA221EE88C4700DEE1E8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F145DC5D1EE8A79E00FE4583 /* Toolbar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Toolbar.xib; path = Interface/Toolbar.xib; sourceTree = "<group>"; };
+		F145DC5F1EE8A98D00FE4583 /* Toolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Toolbar.swift; path = Classes/Views/Toolbar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +58,7 @@
 		F102A9E41EE7617D00DEE1E8 = {
 			isa = PBXGroup;
 			children = (
-				F102A9EF1EE7617D00DEE1E8 /* pace */,
+				F102A9EF1EE7617D00DEE1E8 /* Pace */,
 				F102A9EE1EE7617D00DEE1E8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +66,64 @@
 		F102A9EE1EE7617D00DEE1E8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F102A9ED1EE7617D00DEE1E8 /* pace.app */,
+				F102A9ED1EE7617D00DEE1E8 /* Pace.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F102A9EF1EE7617D00DEE1E8 /* pace */ = {
+		F102A9EF1EE7617D00DEE1E8 /* Pace */ = {
 			isa = PBXGroup;
 			children = (
 				F102A9F01EE7617D00DEE1E8 /* AppDelegate.swift */,
-				F102A9F21EE7617D00DEE1E8 /* ViewController.swift */,
-				F102A9F41EE7617D00DEE1E8 /* Main.storyboard */,
+				F102AA241EE88CA100DEE1E8 /* Utility */,
+				F102AA101EE7994F00DEE1E8 /* Interface */,
+				F102AA0A1EE794B700DEE1E8 /* CalculatorViewController.swift */,
+				F145DC5F1EE8A98D00FE4583 /* Toolbar.swift */,
+				F102AA191EE7AB3200DEE1E8 /* MenuView.swift */,
+				F102AA1D1EE888B900DEE1E8 /* Editors */,
+				F102AA171EE7A31300DEE1E8 /* BorderedView.swift */,
+				F102AA151EE7A15600DEE1E8 /* NumberField.swift */,
 				F102A9F71EE7617D00DEE1E8 /* Assets.xcassets */,
-				F102A9F91EE7617D00DEE1E8 /* LaunchScreen.storyboard */,
 				F102A9FC1EE7617D00DEE1E8 /* Info.plist */,
 			);
-			path = pace;
+			path = Pace;
+			sourceTree = "<group>";
+		};
+		F102AA101EE7994F00DEE1E8 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				F102A9F41EE7617D00DEE1E8 /* Main.storyboard */,
+				F102AA221EE88C4700DEE1E8 /* LaunchScreen.storyboard */,
+				F102AA1E1EE88C2D00DEE1E8 /* DistanceEditor.xib */,
+				F102AA1F1EE88C2D00DEE1E8 /* TimeEditor.xib */,
+				F145DC5D1EE8A79E00FE4583 /* Toolbar.xib */,
+			);
+			name = Interface;
+			sourceTree = "<group>";
+		};
+		F102AA1D1EE888B900DEE1E8 /* Editors */ = {
+			isa = PBXGroup;
+			children = (
+				F102AA081EE78DA300DEE1E8 /* DistanceEditor.swift */,
+				F102AA131EE7A0F500DEE1E8 /* TimeEditor.swift */,
+			);
+			name = Editors;
+			sourceTree = "<group>";
+		};
+		F102AA241EE88CA100DEE1E8 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				F102AA021EE7631200DEE1E8 /* Calculator.swift */,
+			);
+			name = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F102A9EC1EE7617D00DEE1E8 /* pace */ = {
+		F102A9EC1EE7617D00DEE1E8 /* Pace */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F102A9FF1EE7617D00DEE1E8 /* Build configuration list for PBXNativeTarget "pace" */;
+			buildConfigurationList = F102A9FF1EE7617D00DEE1E8 /* Build configuration list for PBXNativeTarget "Pace" */;
 			buildPhases = (
 				F102A9E91EE7617D00DEE1E8 /* Sources */,
 				F102A9EA1EE7617D00DEE1E8 /* Frameworks */,
@@ -79,9 +133,9 @@
 			);
 			dependencies = (
 			);
-			name = pace;
-			productName = pace;
-			productReference = F102A9ED1EE7617D00DEE1E8 /* pace.app */;
+			name = Pace;
+			productName = Pace;
+			productReference = F102A9ED1EE7617D00DEE1E8 /* Pace.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +155,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F102A9E81EE7617D00DEE1E8 /* Build configuration list for PBXProject "pace" */;
+			buildConfigurationList = F102A9E81EE7617D00DEE1E8 /* Build configuration list for PBXProject "Pace" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -114,7 +168,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F102A9EC1EE7617D00DEE1E8 /* pace */,
+				F102A9EC1EE7617D00DEE1E8 /* Pace */,
 			);
 		};
 /* End PBXProject section */
@@ -124,9 +178,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F102A9FB1EE7617D00DEE1E8 /* LaunchScreen.storyboard in Resources */,
 				F102A9F81EE7617D00DEE1E8 /* Assets.xcassets in Resources */,
-				F102A9F61EE7617D00DEE1E8 /* Main.storyboard in Resources */,
+				F102AA2A1EE88DE200DEE1E8 /* Main.storyboard in Resources */,
+				F102AA251EE88D2F00DEE1E8 /* TimeEditor.xib in Resources */,
+				F145DC5E1EE8A79E00FE4583 /* Toolbar.xib in Resources */,
+				F102AA231EE88C4700DEE1E8 /* LaunchScreen.storyboard in Resources */,
+				F102AA261EE88D3400DEE1E8 /* DistanceEditor.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +194,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F102A9F31EE7617D00DEE1E8 /* ViewController.swift in Sources */,
+				F145DC601EE8A98D00FE4583 /* Toolbar.swift in Sources */,
+				F102AA161EE7A15600DEE1E8 /* NumberField.swift in Sources */,
 				F102A9F11EE7617D00DEE1E8 /* AppDelegate.swift in Sources */,
+				F102AA141EE7A0F500DEE1E8 /* TimeEditor.swift in Sources */,
+				F102AA091EE78DA300DEE1E8 /* DistanceEditor.swift in Sources */,
+				F102AA1A1EE7AB3200DEE1E8 /* MenuView.swift in Sources */,
+				F102AA0B1EE794B700DEE1E8 /* CalculatorViewController.swift in Sources */,
+				F102AA031EE7631200DEE1E8 /* Calculator.swift in Sources */,
+				F102AA181EE7A31300DEE1E8 /* BorderedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,14 +215,6 @@
 				F102A9F51EE7617D00DEE1E8 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F102A9F91EE7617D00DEE1E8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F102A9FA1EE7617D00DEE1E8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -186,8 +242,10 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 7;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -236,8 +294,10 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 7;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -261,12 +321,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = Y7HR8N6AJ8;
-				INFOPLIST_FILE = pace/Info.plist;
+				INFOPLIST_FILE = Pace/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = come.ruddfawcett.pace;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruddfawcett.pace;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -274,19 +339,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = Y7HR8N6AJ8;
-				INFOPLIST_FILE = pace/Info.plist;
+				INFOPLIST_FILE = Pace/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = come.ruddfawcett.pace;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruddfawcett.pace;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F102A9E81EE7617D00DEE1E8 /* Build configuration list for PBXProject "pace" */ = {
+		F102A9E81EE7617D00DEE1E8 /* Build configuration list for PBXProject "Pace" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F102A9FD1EE7617D00DEE1E8 /* Debug */,
@@ -295,13 +365,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F102A9FF1EE7617D00DEE1E8 /* Build configuration list for PBXNativeTarget "pace" */ = {
+		F102A9FF1EE7617D00DEE1E8 /* Build configuration list for PBXNativeTarget "Pace" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F102AA001EE7617D00DEE1E8 /* Debug */,
 				F102AA011EE7617D00DEE1E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
